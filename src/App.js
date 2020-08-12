@@ -1,12 +1,31 @@
 import React from 'react';
+import {BrowserRouter, Link, Switch, Route, Redirect} from 'react-router-dom';
+import Principal from  './paginas/Principal';
+import Cita from './paginas/Cita';
+import Nutriologa from './paginas/Nutriologa';
+import Contacto from './paginas/Contacto';
 
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      
-    </div>
+    <BrowserRouter>
+    <Redirect
+          from="/"
+          to="/principal" />
+      <switch>
+       
+        <Route exact path="/principal" component={Principal}/>
+        <Route exact path="/cita" component={Cita}/>
+        <Route exact path="/nutriologa" component={Nutriologa}/>
+        <Route exact path="/contacto" component={Contacto}/>
+        
+      </switch>
+    
+    </BrowserRouter>
+
+  </div>
   );
 }
 
