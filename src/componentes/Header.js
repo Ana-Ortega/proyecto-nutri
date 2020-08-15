@@ -1,7 +1,5 @@
 import React from 'react';
 import './../css/estilos.css';
-
-import Helmet from "react-helmet";
 import {Link} from 'react-router-dom';
 
   function Header(){
@@ -18,29 +16,9 @@ import {Link} from 'react-router-dom';
               <a><Link to="/contacto">Contacto</Link></a>
               <a><Link to="/nutriologa">Nutriologa</Link></a>
               <a><Link to="/principal">Principal</Link></a>
-
-
-{/*            <ul>
-              <li>
-                <Link to="/cita">Cita</Link>
-              </li>
-              <li>
-                <Link to="/contacto">Contacto</Link>
-              </li>
-              <li>
-                <Link to="/nutriologa">Nutriologa</Link>
-              </li>
-              <li>
-                <Link to="/principal">Principal</Link>
-              </li>
-            </ul>  */}
           </nav>
         </div>
         </header>
- 
-
-
-
       </div>
 
     );

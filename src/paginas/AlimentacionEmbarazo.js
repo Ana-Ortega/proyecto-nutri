@@ -1,15 +1,58 @@
 import React from 'react';
-import Header from './../Componentes/Header'
-import Footer from './../Componentes/Footer'
+import './../css/estilos.css';
+import Header from './../componentes/Header';
+import Footer from './../componentes/Footer';
+import ImagenEmbarazo from './../imagenes/dietas-embarazadas.jpg';
 
   function AlimentacionEmbarazo(){
     return(
       <div>
         <Header/>
-        <h1> AlimentacionEmbarazo</h1>
+        <div className="wrapper">
+          <section  className="contenido">
+            <img src= {ImagenEmbarazo} />
+          </section>
+        </div>
+ 
+        <div className="wrapper">
+          <h3 className="">Nutrición en Embarazo y Lactancia</h3>
+          <p className="">
+            Los nueve meses de embarazo representan el periodo más intenso de crecimiento y desarollo humano. La mujer embarazada requiere una alimentación balanceada y adecuada. Lo que se logra si consume de todos los grupos de alimentos que se encuentran en el círculo en las proporc¿iones indicadas al día.</p>
+          <p>
+            Cereales y harinas: aportan carbohidratos que son los que dan energía al cuerpo para realizar sus funciones.</p>
+          <p>
+            Hay que tomar en cuenta que, en esta edad, el metabolismo se vuelve más lento, la actividad física y el tejido muscular disminuyen y hay acumulación de grasa; por lo que es conveniente consumir alimentos bajos en calorías, que sean apropiados para prevenir o retrasar algunas enfermedades crónicas, como la diabetes y la hipertensión arterial, entre otras.
+          </p>
+          <p>
+            Frutas y vegetales: aportan vitaminas y minerales que son utilizadas para funciones de protección y regulación. Además nos aportan fibra (cáscaras, tallos y semillas) que limpian nuestro cuerpo.</p>
+          <p>
+            Productos de origen animal: aportan proteína, necesaria para formar tejidos y crecimiento.</p>
+          <p>
+            Grasa y azúcar: consumir en pocas cantidades ya que son una fuente muy rápida de energía.</p>
+          <p>
+            Nutrientes Esenciales
+          </p>
+          <p>
+            Hierro
+          </p>
+          <p>
+            El cuerpo lo utiliza para formar la sangre. Si hay deficiencia se conoce como anemia. Alimentos fuente: carne de res, hígado, morcilla, menudos y yema de huevos entre otros.  </p>
+          <p>
+            Ácido fólico
+          </p>
+          <p>
+            Formación de glóbulos rojos y blancos en la médula ósea y previene la anemia perniciosa así como malformaciones del tubo neural en el bebé. Alimentos fuente: carnes, hongos, vegetales de hojas verdes.
+          </p>
+          <p>
+            Calcio
+          </p>
+          <p>
+            Sirve para la formación de huesos y dientes, así como para el buen funcionamiento del sistema nervioso y la coagulación de la sangre. Alimentos fuente: leche, yogurt, queso.  
+          </p>
+        </div>
         <Footer/>
-      </div>
 
+      </div>
     );
   }
 

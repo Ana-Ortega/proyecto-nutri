@@ -1,12 +1,83 @@
 import React from 'react';
-import Header from './../Componentes/Header'
-import Footer from './../Componentes/Footer'
+import './../css/estilos.css';
+import Header from './../componentes/Header';
+import Footer from './../componentes/Footer';
+import Imagengym from './../imagenes/alimentacion-gym.jpg';
+
 
   function AlimentacionGym(){
     return(
       <div>
         <Header/>
-        <h1> AlimentacionGym</h1>
+          
+            <div className="wrapper">
+                <section  className="contenido">
+                  <img src={Imagengym} />
+                </section>
+            </div>     
+            <div className="wrapper">
+              <h3 >Recomendaciones Nutricionales en el Ejercicio</h3>
+              <p >¿Ya tiene tiempo en el gimnasio y no ha logrado sus objetivos?</p>
+              <p>Le brindamos asesoría en Nutrición en el ejercicio, le ayudamos si no ha logrado
+                sus objetivos; y también si desea mejorar su rendimiento deportivo mediante la 
+                alimentación.  
+              </p>
+              <p>La Dra. teniendo como pasión el ejercicio, participó en el programa de Nutrición 
+              Deportiva de la Institución Argentina, “Grupo Sobre entrenamiento”; para así lograr 
+              mediante la Nutrición un mejor rendimiento en el ejercicio, ya sea de entrenamiento,
+              competencia o recreativo. Esto le ha permitido trabajar en varios gimnasios y tener 
+              convenios, con Gimnasio Salud y Forma, Arenilla Gym, ASETEC y Fisiodeporte, todos 
+              del área de Cartago.  
+            </p>
+            <p>El músculo es nuestro tejido metabólicamente activo, si se pierde músculo,
+               será más difícil continuar con la pérdida de peso o mantener lo perdido; 
+               por lo tanto debemos tener una allimentación que favorezca el aumento de masa
+                muscular y la pérdida de grasa corporal. 
+            </p>           
+            <p> EVITAR ESTOS ALIMENTOS:  </p>
+            <p> Las grasas trans se forman por procesos industriales. Estas grasas aumentan los 
+              niveles de colesterol LDL (malo) en la sangre y disminuyen el colesterol HDL (bueno),
+               provocando mayor riesgo de sufrir enfermedades cardiovasculares; además son 
+               inflamatorias y provocan AUMENTO DE GRASA A NIVEL ABDOMINAL!!! Estas se encuentran 
+               en algunas margarinas, galletas con relleno, repostería, papas tostadas, donas, 
+               biscuits, y en la comida rápida (frituras). Lea la etiqueta nutricional del alimento 
+               y asegúrese de que tiene 0  gramos de grasas trans por porción.  O bien, leer los 
+               ingredientes y descartar que tenga algún ACEITE PARCIALMENTE HIDROGENADO.
+            </p>
+            <p>
+              Disminuir el consumo de azúcar de mesa, bebidas azucaradas, jugos, y productos muy 
+              altos en azúcar como golosinas, jalea, sirope, chocolates, barritas, etc. Esto porque 
+              el azúcar aporta solamente calorías vacías, no contiene vitaminas ni minerales; y 
+              provoca una elevación de la hormona insulina, que indirectamente causa el almacenamiento
+               de la grasa. 
+            </p>
+            <p>
+              Aumente el consumo de frutas y verduras. Consuma frutas ácidas por la mañana y dulces 
+              por la tarde, por que producen menos gases.
+            </p>
+            <p>
+              La grasa saturada es grasa de origen animal; como mantequilla, crema dulce, queso crema, 
+              natilla, tocineta,  grasas de las carnes, piel del pollo, paté, etc. Estas grasas se acumulan, 
+              por lo que es indispensable elegir cortes magros de res, cerdo y pollo, pescado y mariscos 
+              y preferir lácteos descremados. Si va a consumir mantequilla, natilla ó queso crema vale 
+              la pena que prefiera la versión Light, ya que contienen menos cantidad de grasa saturada,
+               colesterol y calorías.  
+            </p>
+            <p>
+              ALIMENTOS RECOMENDADOS:
+            </p>
+            <p>
+              Proteína magra (sin grasa): como el Huevo (incluyendo la yema), Pechuga de pollo sin piel ó 
+              pavo Lomito ó lomo de cerdo Carne de res 5% grasa ó menos Bistec ó lomito de ternera Pescados 
+              y mariscos Quesos blancos ó Light Embutidos 98% libres de grasa Proteína de soya ó productos 
+              a base de soya bajos en grasa (tofu, leche, yogurt) Lácteos descremados (leche, yogurt, helados)
+            </p>
+            <p>
+              Además las proteínas que tengan más leucina (un aminoácido), ayudan más a la formación 
+              de músculo, como el huevo, la leche, el pescado, pollo, y batidos de proteínas de suero.
+            </p>     
+
+          </div>  
         <Footer/>
       </div>
 
