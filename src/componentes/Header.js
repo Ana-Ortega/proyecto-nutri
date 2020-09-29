@@ -12,7 +12,6 @@ import {Link} from 'react-router-dom';
         </div>
         <div className="logo"> NUTRIOLOGA </div>
           <nav>
-              <a><Link to="/cita">Cita</Link></a>
               <a><Link to="/contacto">Contacto</Link></a>
               <a><Link to="/nutriologa">Nutriologa</Link></a>
               <a><Link to="/principal">Principal</Link></a>

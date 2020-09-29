@@ -6,8 +6,8 @@ import Nutriologa from './paginas/Nutriologa';
 import Contacto from './paginas/Contacto';
 import AlimentacionSana from './paginas/AlimentacionSana';
 import AlimentacionEmbarazo from './paginas/AlimentacionEmbarazo';
-import Calculadora from './paginas/calculadora';
 import AlimentacionGym from './paginas/AlimentacionGym';
+import AlimentacionAdultoMAyor from './paginas/AlimentacionAdultoMayor';
 
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
         <Route exact path="/contacto" component={Contacto}/>
         <Route exact path="/alimentacionsana" component={AlimentacionSana}/>
         <Route exact path="/alimentacionembarazo" component={AlimentacionEmbarazo}/>
-        <Route exact path="/calculadora" component={Calculadora}/>
         <Route exact path="/alimentacionGym" component={AlimentacionGym}/>
+        <Route exact path="/alimentacionAdulto" component={AlimentacionAdultoMAyor}/>
 
       </switch>
     

@@ -39,9 +39,9 @@ import ImagenPlato from './../imagenes/servicio_plato_blanco.png';
                     <img className="servicio-image" src={ImagenReceta} />
                   </figure>
                   <div className="servicio-detail">
-                    <h5 className="servicio-title">Calculadora de calorias</h5>
-                    <p className="servicio-description">Llevar un control de lo que comes en tu dia a dia te ayudara a mantenerte en tu peso ideal.</p>
-                    <a className="servicio-url"><Link to="/calculadora">Ver</Link></a>
+                    <h5 className="servicio-title">Alimentación en Adultos Mayores</h5>
+                    <p className="servicio-description">Una dieta  adecuada que le permita desarrollar sus actividades diarias y salud optimas.</p>
+                    <a className="servicio-url"><Link to="/alimentacionAdulto">Ver</Link></a>
                   </div>
                 </article>
                 <article className="servicio">
