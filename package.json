@@ -16,7 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "serve": "^11.3.2",
-	  "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -40,5 +40,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ana-Ortega/proyecto-nutri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ana-Ortega/proyecto-nutri/issues"
+  },
+  "homepage": "https://github.com/Ana-Ortega/proyecto-nutri#readme"
 }
