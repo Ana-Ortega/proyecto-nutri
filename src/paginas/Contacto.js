@@ -1,6 +1,6 @@
 import React from 'react';
 import './../css/estilos.css';
-import Header from './../componentes/Header';
+import Navbar from './../componentes/Nav/Navbar';
 import Footer from './../componentes/Footer';
 import ImagenContacto from './../imagenes/contacto.png';
 import contactoImagen from './../imagenes/contactoImagen.jpg';
@@ -9,7 +9,7 @@ import contactoImagen from './../imagenes/contactoImagen.jpg';
   function Contacto(){
     return(
       <div>
-        <Header/>
+        <Navbar />
         <div className="wrapper">
         <section  class="contenido">
             <img src={ImagenContacto} />

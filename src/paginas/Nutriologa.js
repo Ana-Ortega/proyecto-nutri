@@ -1,6 +1,6 @@
 import React from 'react';
 import './../css/estilos.css';
-import Header from './../componentes/Header';
+import Navbar from './../componentes/Nav/Navbar';
 import Footer from './../componentes/Footer';
 import ImagenNutri from './../imagenes/nutriologa_encabezado.jpg';
 
@@ -8,7 +8,7 @@ import ImagenNutri from './../imagenes/nutriologa_encabezado.jpg';
   function Nutriologa(){
     return(
       <div>
-        <Header/>
+        <Navbar />
         <div className="wrapper">
           <section  className="contenido">
             <img src={ImagenNutri} />
